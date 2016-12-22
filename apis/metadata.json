@@ -1,0 +1,8 @@
+{
+  "cloudstorage": {
+    "name": "CloudStorage"
+  },
+  "objectstorage": {
+    "name": "ObjectStorage"
+  }
+}

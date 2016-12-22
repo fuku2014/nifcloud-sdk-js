@@ -1,0 +1,32 @@
+{
+  "rules": {
+    "*/*": {
+      "endpoint": "https://{service}.jp-{region}.api.cloud.nifty.com",
+      "signatureVersion": "v2"
+    },
+    "*/cp": {
+      "endpoint": "https://{region}.cp.cloud.nifty.com/api/",
+      "signatureVersion": "v2"
+    },
+    "east-1/s3": {
+      "endpoint": "https://ncss.nifty.com",
+      "signatureVersion": "s3"
+    },
+    "west-1/s3": {
+      "endpoint": "west-1-ncss.nifty.com",
+      "signatureVersion": "s3"
+    },
+    "*/dns": {
+      "endpoint": "https://dns.api.cloud.nifty.com",
+      "signatureVersion": "v3https"
+    },
+    "*/ess": {
+      "endpoint": "https://ess.api.cloud.nifty.com",
+      "signatureVersion": "v3https"
+    },
+    "*/automation": {
+      "endpoint": "https://automation.api.cloud.nifty.com/",
+      "signatureVersion": "v4"
+    }
+  }
+}
