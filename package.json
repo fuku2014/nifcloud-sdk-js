@@ -1,7 +1,7 @@
 {
     "name": "nifcloud-sdk",
     "description": "NIFCLOUD SDK for JavaScript",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "author": {
       "name":  "somathor",
       "email": "somathor@gmail.com",
